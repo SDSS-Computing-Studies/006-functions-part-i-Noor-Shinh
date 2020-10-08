@@ -7,5 +7,8 @@ Return value is the distance between the (x,y) coordinates.
 Note that the coordinates should be signed (positive or negative) floats
 (2 points)
 """
-import math
 
+import math
+def distance(a,b):
+    c=math.dist(a,b)
+    return c
