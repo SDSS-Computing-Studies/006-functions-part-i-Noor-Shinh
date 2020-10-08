@@ -17,8 +17,4 @@ print(x)
 y = sum(11,1.5)
 print(y)
 
-a=float(input("Enter a number"))
-b=float(input("Enter a number"))
 
-c=sum(a,b)
-print(c)
