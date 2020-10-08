@@ -10,6 +10,10 @@ import math
 def isInteger(x):
     b=math.floor(x)
     if b==x:
-        print("is an integer")
+        d=True
+        return d
     else:
-        print("not an integer")
+        d=False
+        return d 
+
+print(isInteger(-2.5))
