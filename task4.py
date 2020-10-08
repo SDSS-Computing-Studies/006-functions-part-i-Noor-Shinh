@@ -7,3 +7,9 @@ Return False if the number is not an integer
 (2 points)
 """
 
+def isInteger(x):
+    b=math.floor(x)
+    if b==x:
+        print("is an integer")
+    else:
+        print("not an integer")
