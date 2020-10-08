@@ -8,7 +8,10 @@ Note that the coordinates should be signed (positive or negative) floats
 (2 points)
 """
 
-import math
 def distance(a,b):
+    import math
     c=math.dist(a,b)
     return c
+
+d=round(distance([-3,2.2],[1,2]),3)
+print(d)
