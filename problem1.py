@@ -9,7 +9,7 @@ Return the missing side
 """
 import math
 
-def hypoteneuse(a,b,c):
+def hypotenuse(a,b,c):
     if True==c:
         if a<b:
             x=(math.pow(b,2)-math.pow(a,2))
@@ -26,3 +26,8 @@ def hypoteneuse(a,b,c):
         x=(math.pow(a,2)+math.pow(b,2))
         x=math.sqrt(x)
         return x
+
+a=hypotenuse(13,5,True)
+print(a)
+b=hypotenuse(3,4,False)
+print(b)
